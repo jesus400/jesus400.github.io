@@ -61,7 +61,7 @@ body{
 }
 .todo{
     background-color:rgb(233, 233, 233);
-    padding: 10px;;
+    padding: 10px;
 }
 .ini{
     background-color: greenyellow;
@@ -87,4 +87,7 @@ body{
     body{
         margin: 0 1%;
     }      
+    .todo{
+   margin: 0;
+}
 }
