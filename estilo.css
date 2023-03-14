@@ -1,0 +1,90 @@
+body{
+    margin: 0 20%;
+    padding: 0;
+    background-color: black;
+    background: url(https://i0.wp.com/www.revistaseguridadminera.com/wp-content/uploads/2012/05/naturaleza-de-las-actitudes-de-los-trabajadores.jpg?fit=833%2C518&ssl=1) fixed;
+    background-size: cover;
+
+   
+}
+*{
+    box-sizing: border-box;
+}
+.contenido h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 200%;
+    
+}
+.contenido p{
+    font-family: 'Anton', sans-serif;
+    font-size: 120%;
+}
+.nombre h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 400%;
+    margin: 0;
+   
+}
+
+
+.nave ul li{
+    float: right;
+    border-color: gray;
+    border-width: 3px;
+    border-style: solid;
+    margin: 0;
+}
+.nave ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    
+}
+.nave ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.nave ul .ley a:hover{
+    background-color: rgb(202, 202, 202);
+    color: black;
+    border-color: white;
+    
+    
+}
+.todo{
+    background-color:rgb(233, 233, 233);
+    padding: 10px;;
+}
+.ini{
+    background-color: greenyellow;
+    
+}.nave ul .ini a{
+    color: black;
+}
+.imagen{
+    width: 75%;
+    margin: 5px 10%;
+}
+@media screen and (max-width:550px ) {
+    .nombre h1{
+        font-family: 'Bree Serif', serif;
+        font-size: 200%;
+        margin: 0;
+       
+    }
+    .nave ul li a{
+        padding: 5px 10px;
+    }
+   
+
+
+      
+}
